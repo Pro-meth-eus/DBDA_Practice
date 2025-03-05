@@ -1,0 +1,66 @@
+Script started on 2025-03-05 16:01:28+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="120" LINES="32"]
+[?2004h]0;root@KuchBhi: /home/dbda/DBDA_Practiceroot@KuchBhi:/home/dbda/DBDA_Practice# cd[K[Kgit checkout -b first
+[?2004lSwitched to a new branch 'first'
+[?2004h]0;root@KuchBhi: /home/dbda/DBDA_Practiceroot@KuchBhi:/home/dbda/DBDA_Practice# git checkout main
+[?2004lA	data.txt
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+[?2004h]0;root@KuchBhi: /home/dbda/DBDA_Practiceroot@KuchBhi:/home/dbda/DBDA_Practice# git branch
+[?2004l[?1h=  first[m[m
+* [32mmain[m[m
+[K[?1l>[?2004h]0;root@KuchBhi: /home/dbda/DBDA_Practiceroot@KuchBhi:/home/dbda/DBDA_Practice# git checkout first
+[?2004lA	data.txt
+Switched to branch 'first'
+[?2004h]0;root@KuchBhi: /home/dbda/DBDA_Practiceroot@KuchBhi:/home/dbda/DBDA_Practice# cat >> data.txt
+[?2004lHAKUNAMATATA
+[?2004h]0;root@KuchBhi: /home/dbda/DBDA_Practiceroot@KuchBhi:/home/dbda/DBDA_Practice# git brancs[K[K[K[K[K[Kcheeckout[K[K[K[K[K[Kckout main
+[?2004lA	data.txt
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+[?2004h]0;root@KuchBhi: /home/dbda/DBDA_Practiceroot@KuchBhi:/home/dbda/DBDA_Practice# git merge fi[K[K[K[K[K[K[K[K[K[K[K[Kcat data.txt
+[?2004lThis is first project
+HELLO
+HAKUNAMATATA
+[?2004h]0;root@KuchBhi: /home/dbda/DBDA_Practiceroot@KuchBhi:/home/dbda/DBDA_Practice# git branch 
+[?2004l[?1h=  first[m[m
+* [32mmain[m[m
+[K[?1l>[?2004h]0;root@KuchBhi: /home/dbda/DBDA_Practiceroot@KuchBhi:/home/dbda/DBDA_Practice# git checkout first
+[?2004lA	data.txt
+Switched to branch 'first'
+[?2004h]0;root@KuchBhi: /home/dbda/DBDA_Practiceroot@KuchBhi:/home/dbda/DBDA_Practice# cat data.txt
+[?2004lThis is first project
+HELLO
+HAKUNAMATATA
+[?2004h]0;root@KuchBhi: /home/dbda/DBDA_Practiceroot@KuchBhi:/home/dbda/DBDA_Practice# git branch
+[?2004l[?1h=* [32mfirst[m[m
+  main[m[m
+[K[?1l>[?2004h]0;root@KuchBhi: /home/dbda/DBDA_Practiceroot@KuchBhi:/home/dbda/DBDA_Practice# cat >> data.txt
+[?2004lchanfe in first branch^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D                                                  ge in first branch
+[?2004h]0;root@KuchBhi: /home/dbda/DBDA_Practiceroot@KuchBhi:/home/dbda/DBDA_Practice# cat data.txt
+[?2004lThis is first project
+HELLO
+HAKUNAMATATA
+change in first branch
+[?2004h]0;root@KuchBhi: /home/dbda/DBDA_Practiceroot@KuchBhi:/home/dbda/DBDA_Practice# git chr[Keckout main
+[?2004lA	data.txt
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+[?2004h]0;root@KuchBhi: /home/dbda/DBDA_Practiceroot@KuchBhi:/home/dbda/DBDA_Practice# git checkout main[5Pcat data.txt
+[?2004lThis is first project
+HELLO
+HAKUNAMATATA
+change in first branch
+[?2004h]0;root@KuchBhi: /home/dbda/DBDA_Practiceroot@KuchBhi:/home/dbda/DBDA_Practice# git log
+[?2004l[?1h=[33mcommit 572d66c4f98d4170083e92b5aea8e89b0a45b67c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mfirst[m[33m)[m[m
+Author: Pro-meth-eus <138098731+Pro-meth-eus@users.noreply.github.com>[m
+Date:   Wed Mar 5 09:37:17 2025 +0530[m
+[m
+    Initial commit[m
+[K[?1l>[?2004h]0;root@KuchBhi: /home/dbda/DBDA_Practiceroot@KuchBhi:/home/dbda/DBDA_Practice# git merge [K[K[K[K[K[Kbranch
+[?2004l[?1h=  first[m[m
+* [32mmain[m[m
+[K[?1l>[?2004h]0;root@KuchBhi: /home/dbda/DBDA_Practiceroot@KuchBhi:/home/dbda/DBDA_Practice# git merge test
+[?2004lmerge: test - not something we can merge
+[?2004h]0;root@KuchBhi: /home/dbda/DBDA_Practiceroot@KuchBhi:/home/dbda/DBDA_Practice# git merge test[K[K[K[Kfirst
+[?2004lAlready up to date.
+[?2004h]0;root@KuchBhi: /home/dbda/DBDA_Practiceroot@KuchBhi:/home/dbda/DBDA_Practic
